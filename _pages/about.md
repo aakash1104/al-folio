@@ -6,7 +6,7 @@ subtitle: 👨🏻‍💻 Software Engineer • 📍 Bay Area, CA
 
 profile:
   align: right
-  image:
+  image: prof_pic.jpg
   address: >
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
