@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Aakash  Prabhu | blog</title>
+    <title>Aakash  Prabhu | publications</title>
     <meta name="author" content="Aakash  Prabhu" />
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 " />
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤩</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://aakprabhu.com/blog/">
+    <link rel="canonical" href="https://aakprabhu.com/publications/">
     
     <!-- Dark Mode -->
     
@@ -71,13 +71,13 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/publications/">publications</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/publications/">publications<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/reading/">reading</a>
@@ -87,8 +87,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -101,61 +101,94 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>Welcome!</h1>
-    <h2>Sometimes, I write</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">publications</h1>
+            <p class="post-description"></p>
+          </header>
 
+          <article>
+            <!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
 
-  <ul class="post-list">
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
+        <!-- Entry bib key -->
+        <div id="missingcs" class="col-sm-8">
         
-          <a class="post-title" href="/blog/2022/hello/">Welcome to my blog!</a>
+          <!-- Title -->
+          <div class="title">Design and Evaluation of "The Missing CS Class," a Student-Led Undergraduate Course to Reduce the Academia-Industry Gap</div>
+          <!-- Author -->
+          <div class="author">Gilson, Grant, Ott, Stephen, Rose Ledesma, Noah, 
+                  <em>Prabhu, Aakash</em>, and <a href="https://cs.ucdavis.edu/directory/joel-porquet-lupine" target="_blank" rel="noopener noreferrer">Porquet-Lupine, Joël</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 53rd ACM Technical Symposium on Computer Science Education V. 1</em> 2022
+          </div>
         
-      </h3>
-      <p>first blog post</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        February 4, 2022
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2022">
-          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="/assets/pdf/missingcs_sigcse2022.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
 
           
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2019</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="randomizedmalloc" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Randomizing Malloc - Stomp the Code Monkeys</div>
+          <!-- Author -->
+          <div class="author">Ervin, J., Lynn, T., 
+                  <em>Prabhu, A.</em>, Yeramilli, N., and <a href="http://nob.cs.ucdavis.edu/bishop/" target="_blank" rel="noopener noreferrer">Bishop, M.</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em></em> 2019
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="/assets/pdf/randomizing_malloc.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
 
           
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p>
-    </li>
+        </div>
+      </div>
+</li></ol>
 
-    
-  </ul>
-
-  
 
 </div>
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2022 Aakash  Prabhu. Made with ❤️ Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2022 Aakash  Prabhu. Made with ❤️ Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 Last updated: July 10, 2022.
       </div>
     </footer>
